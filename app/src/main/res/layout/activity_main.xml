@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/rcd"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Record"/>
+
+    <Button
+        android:id="@+id/ply"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rcd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Play"/>
+
+    <Button
+        android:id="@+id/stp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ply"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Stop"/>
+
+
+</RelativeLayout>
